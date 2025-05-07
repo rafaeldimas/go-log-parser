@@ -13,7 +13,7 @@ import (
 	"github.com/rafaeldimas/go-log-parser/internal/storage"
 )
 
-func main() {
+func main2() {
 	logger := log.New(os.Stdout, "[PROCESS - main] ", log.LstdFlags)
 	start := time.Now()
 
